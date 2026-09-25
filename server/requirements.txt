@@ -1,0 +1,11 @@
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.5
+pydantic-settings>=2.1
+python-jose[cryptography]>=3.3
+httpx>=0.27,<0.28
+pytest>=7.4
+pytest-cov>=4.1
+# optional production
+# redis>=5.0
+# pymongo>=4.6
